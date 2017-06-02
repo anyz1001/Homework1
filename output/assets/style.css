@@ -1,0 +1,16 @@
+.w3-btn {
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 42px;
+}
+
+#cal-container {
+    float: left;
+    padding: 8px;
+    margin: 10px;
+    border: solid;
+}
+
+#inputBox input {
+    width: 183px;
+}
