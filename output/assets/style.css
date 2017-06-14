@@ -4,10 +4,13 @@
     width: 42px;
 }
 
-#cal-container {
+#cal-container, #cal-history {
     float: left;
     padding: 8px;
     margin: 10px;
+}
+
+#cal-container {
     border: solid;
 }
 
