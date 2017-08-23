@@ -14,9 +14,7 @@ class InputBox extends Component {
 
     handleChange = (event) => {
         var inputValue = event.target.value.replace(/\D/g,'');
-        inputValue = inputValue == '' ? inputValue : parseInt(inputValue);
-        this.setState({value: inputValue.toString()});
-        this.props.inputFun('change', inputValue.toString());
+        this.props.inputFun('change', inputValue);
     }
 
     onFocus = (event) => {
